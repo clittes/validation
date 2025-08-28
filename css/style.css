@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+      font-family: "Montserrat", sans-serif;
+      background-color:  #111;
+}
+.navbar{
+    background-color: #111;
+}
+.navbar .navbar-brand{
+    opacity: 0.8;
+    color: #F5F5F7;
+    font-size: 14px;
+    font-weight:600;
+}
+.navbar .navbar-brand:hover{
+    color:#14CECA ;
+}
+
+.navbar .navbar-nav .nav-item a{
+     opacity: 0.8;
+    font-size: 13px;
+    font-weight: 600;
+     color: #F5F5F7;
+     margin-left: 25px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+
+    color: #14CECA;
+}
+.landing-sec h3{
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 600;
+}
+.landing-sec h1{
+    font-size: 92px;
+     font-weight: 700;
+      color: #FAFAFA;
+}
+.landing-sec h1 span{
+    background-image: linear-gradient(to right,#0D8CDC,#11B0AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landing-sec p{
+    color: #A1A1A1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.landing-sec .btn{
+    background-image: linear-gradient(to right,#0D8CDC,#11B0AB);
+    color: #FAFAFA;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.landing-sec
+{
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.footer h1{
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer i{
+    color: #A1A1A1;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer i:hover{
+    color:#f9f9f9 ;
+}
+.footer p{
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.table {
+  --bs-table-bg: transparent;                   /* cells' background */
+  --bs-table-color: #ddd;                       /* default text color */
+  --bs-table-border-color: #555;                /* border color used by bootstrap */
+  --bs-table-striped-bg: rgba(255,255,255,0.02);
+  --bs-table-hover-bg: rgba(255,255,255,0.03);
+  color: var(--bs-table-color);
+}
+
+.table th,
+.table td {
+  border-color: var(--bs-table-border-color);
+}
+
+.table thead th {
+  color: #fff;
+  border-bottom: 2px solid var(--bs-table-border-color);
+}
+.aboutSec{
+    padding-top:50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.aboutSec h1{
+    color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 800;
+    
+}
+.aboutSec h3{
+    color: #14CECA;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.aboutSec h2{
+    color: #f9f9f9;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.aboutSec p{
+    color: #f9f9f9;
+    font-size: 15px;
+    padding-top: 8px;
+    font-weight: 500;
+}
+.aboutSec table  td span{
+ color: #11B0AB;
+}
+.aboutSec table  thead th span{
+ color: #11B0AB;
+}
+.aboutSec .btn{
+     background-image: linear-gradient(to right,#0D8CDC,#11B0AB);
+    color: #FAFAFA;
+    height: 50p;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.aboutSec table tbody td {
+   
+  color: #fff;   
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.aboutSec img{
+width: 250px;      
+  height: 250px;      
+  object-fit: cover;   
+  border-radius: 100%;  
+  border: 3px solid #11B0AB;
+}
+
+ .timelineSec .heading{
+      color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+ }
+  .timelineSec{
+    padding-top:50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+  
+
+  .timelineSec .content .verticalLine{
+    border-left:1px solid #dee2e6!important ;
+    height: 50px;
+    margin-left:12px;
+    margin-right:12px ;
+  }
+.timelineSec .content .badgeEle{
+        border-radius:100%;
+        height:25px ;
+        border: 2px solid rgb(21,215,200);
+        width:25px ;
+ }
+.timelineSec .content .card{
+    background-color: #1a1a1a;
+    margin-left: -50px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+}
+.timelineSec .content .card .card-body h4{
+    font-size: 15px;
+    color: #FAFAFA;
+}
+.timelineSec .content .card .card-body h5{
+    color: #15d7c8;
+    font-size: 15px;
+
+}
+.timelineSec .content .card .card-body p{
+    color: #F5F5F7;
+     font-size: 16px;
+
+}
+
+.projectSec .heading h1{
+      color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+}
+ .projectSec{
+    padding-top:50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+
+  .projectSec .content .card{
+   background-color: #1a1a1a;
+    border-radius:15px ;
+  }
+  .projectSec .content .card h5{
+    color:#11B0AB;
+    font-size: 15px;
+  }
+    .projectSec .content .card i{
+        font-size: 16px;
+        color: #FAFAFA;
+       
+    }
+.projectSec .content .card i:hover{
+        color: #1515d7;
+       }
+.projectSec .content .card h3{
+    font-size: 24px;
+    color: #FAFAFA;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.projectSec .content .card p{
+    font-size: 16px;
+      color: #818181;
+
+}
